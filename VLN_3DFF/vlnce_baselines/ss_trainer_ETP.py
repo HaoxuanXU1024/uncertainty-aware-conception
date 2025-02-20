@@ -100,7 +100,7 @@ class RLTrainer(BaseVLNCETrainer):
 
     def _set_config(self):
 
-	self.batch_size = self.config.IL.batch_size
+        self.batch_size = self.config.IL.batch_size
 
         self.world_size = self.config.GPU_NUMBERS
         self.local_rank = self.config.local_rank
@@ -728,7 +728,7 @@ class RLTrainer(BaseVLNCETrainer):
 
     @torch.no_grad()
     def inference(self):
-	self.batch_size = self.config.IL.batch_size
+        self.batch_size = self.config.IL.batch_size
         self.world_size = self.config.GPU_NUMBERS
         self.local_rank = self.config.local_rank
         torch.cuda.set_device(self.device)

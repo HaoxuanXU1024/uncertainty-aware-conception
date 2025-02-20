@@ -1,0 +1,9 @@
+*.log
+*.pt
+*.pth
+VLN_3DFF/checkpoints/
+VLN_3DFF/pretrained/
+Traversable_Map/checkpoints/
+Traversable_Map/data/
+Traversable_Map/pretrained_models/
+pretrain_src/
